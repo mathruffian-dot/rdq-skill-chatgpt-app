@@ -1,0 +1,7 @@
+interface:
+  display_name: "RDQ Method — ChatGPT App 版"
+  short_description: "使用四象限需求訪談先釐清真正需求，再產出一頁可確認的規格卡"
+  default_prompt: "使用 $rdq 先釐清這項任務的真正需求，再開始製作。"
+
+policy:
+  allow_implicit_invocation: true
