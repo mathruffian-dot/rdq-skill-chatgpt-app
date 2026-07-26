@@ -1,0 +1,27 @@
+{
+  "name": "rdq-skill-chatgpt-app",
+  "version": "0.1.0",
+  "description": "RDQ Method requirements-discovery workflow for ChatGPT App and Codex.",
+  "author": {
+    "name": "mathruffian-dot",
+    "url": "https://github.com/mathruffian-dot"
+  },
+  "homepage": "https://github.com/mathruffian-dot/rdq-skill-chatgpt-app",
+  "repository": "https://github.com/mathruffian-dot/rdq-skill-chatgpt-app",
+  "license": "MIT",
+  "keywords": ["rdq", "requirements", "discovery", "chatgpt", "agent-skill"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "RDQ Method — ChatGPT App 版",
+    "shortDescription": "以四象限訪談釐清需求，再產出可確認的規格卡",
+    "longDescription": "在 ChatGPT 或 Codex 動工前，以 RDQ 四象限流程擷取已知資訊、解答疑問、訪談隱性需求並提出尚未想到的風險與選項，最後產出一頁可確認的需求規格卡。",
+    "developerName": "mathruffian-dot",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "defaultPrompt": [
+      "用 RDQ 幫我先釐清這個任務，再開始製作。",
+      "我還沒想清楚要什麼，請先做需求訪談。",
+      "先幫我找出可能遺漏的限制、風險與替代方案。"
+    ]
+  }
+}
