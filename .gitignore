@@ -1,0 +1,24 @@
+# 系統與同步暫存
+desktop.ini
+Thumbs.db
+.DS_Store
+*.tmp
+~$*
+
+# 敏感資料
+.env
+.env.*
+*.key
+credentials.*
+secrets.*
+
+# 本機 Agent 設定
+.claude/
+.codex/
+
+# 建置與快取
+node_modules/
+dist/
+build/
+.cache/
+__pycache__/
